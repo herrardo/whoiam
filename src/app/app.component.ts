@@ -4,9 +4,7 @@ import {
   faLinkedin,
   faInstagram,
   faTwitter,
-  faFacebook,
-  faGithub,
-  faSpotify
+  faGithub
 } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
@@ -15,20 +13,18 @@ import {
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  name = 'Emily Wazowski';
-  job = 'Search Engineer';
-  description = 'Emily has been working with Empathy since 2017 and she is a lovely developer interested in animals and extreme sports. Ask her about any issue you face and she will solve the problem just in minutes.';
-  smallImage = 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80';
-  bigImage = 'https://images.unsplash.com/photo-1569012871812-f38ee64cd54c';
+  name = 'Gerardo Vázquez';
+  job = 'Frontend Engineer';
+  description = 'I am a Frontend Engineer specialized in fashion websites who love to deliver interesting experiences to users. I also have strong communication and organizational skills to work with other teams or clients. I am currently working on search experiences. Skills: Javascript, React, Vue.';
+  smallImage = '../assets/img/ger_cinci.jpg';
+  bigImage = '../assets/img/ger_cinci.jpg';
 
   // Icons
   rrss = [
-    { icon: faLinkedin, url: 'https://www.linkedin.com/in/emily-wazowski' },
-    { icon: faInstagram, url: 'https://www.instagram.com/emily-wazowski' },
-    { icon: faTwitter, url: 'https://twitter.com/emily-wazowski' },
-    { icon: faFacebook, url: 'https://www.facebook.com/emily-wazowski' },
-    { icon: faGithub, url: 'https://github.com/emily-wazowski' },
-    { icon: faSpotify, url: 'https://open.spotify.com/user/emily-wazowski' }
+    { icon: faLinkedin, url: 'https://www.linkedin.com/in/gerardovazquezvarela/' },
+    { icon: faInstagram, url: 'https://www.instagram.com/herr_ardo/' },
+    { icon: faTwitter, url: 'https://twitter.com/herr_ardo' },
+    { icon: faGithub, url: 'https://https://github.com/herrardo' },
   ]
 
   navigateTo(url: string) {
