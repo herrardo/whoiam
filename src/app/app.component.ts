@@ -15,16 +15,17 @@ import {
 export class AppComponent {
   name = 'Gerardo Vázquez';
   job = 'Frontend Engineer';
+  // tslint:disable-next-line:max-line-length
   description = 'I am a Frontend Engineer specialized in fashion websites who love to deliver interesting experiences to users. I also have strong communication and organizational skills to work with other teams or clients. I am currently working on search experiences. Skills: Javascript, React, Vue.';
-  smallImage = '../assets/img/ger_cinci.jpg';
-  bigImage = '../assets/img/ger_cinci.jpg';
+  smallImage = './assets/img/herr_whoiam.jpg';
+  bigImage = './assets/img/herr_whoiam.jpg';
 
   // Icons
   rrss = [
     { icon: faLinkedin, url: 'https://www.linkedin.com/in/gerardovazquezvarela/' },
     { icon: faInstagram, url: 'https://www.instagram.com/herr_ardo/' },
     { icon: faTwitter, url: 'https://twitter.com/herr_ardo' },
-    { icon: faGithub, url: 'https://https://github.com/herrardo' },
+    { icon: faGithub, url: 'https://github.com/herrardo' },
   ]
 
   navigateTo(url: string) {
